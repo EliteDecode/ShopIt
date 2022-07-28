@@ -1,0 +1,670 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+}
+/*universal*/
+
+.red{
+    border:1px solid red;
+    height:200px
+}
+.green{
+    border:1px solid green;
+    height:200px
+}
+.blue{
+    border:1px solid blue;
+    height:200px
+}
+
+.ojahi_red{
+    color:rgb(255, 114,0);
+}
+
+.ojahi_dark{
+    color: rgb(6,56,82);
+}
+
+/*Login section*/
+
+.login{
+    border:1px solid #fff;
+    height: 738px;
+   background-color: #fff;
+   overflow: hidden;
+}
+    
+
+.login >  .login_area {
+    border:1px solid  rgb(6,56,82);
+    width: 60%;
+    margin: 0% 20%;
+    height: 630px;
+    transform: translateY(-100px);
+    background-color: rgb(6,56,82);
+    clear: both;
+}
+
+.log_img  >a > img{
+    width: 18%;
+    margin: -5% 41% 2%;
+    color: #fff;
+}
+
+
+.log_img > h6{
+    position: relative;
+    top:-117px;
+    float: right;
+    right:106px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: rgb(255, 114,0);
+}
+
+
+
+.login_area > h4{
+    font-size: 28px;
+    color:  #fff;
+    margin-top: 5%;
+    margin-left: 7.5%;
+    width: 40%;
+    padding-bottom: 1%;
+    border-bottom: 2px solid rgba(172, 178, 182, 0.733);
+}
+
+
+.login_area > form{
+    width: 85%;
+    margin: 8% 7.5%;
+}
+
+.login_area > form > label{
+    font-weight: bolder;
+    margin-top: 2%;
+    font-size: 14px;
+}
+.login_area > form > input{
+    width: 100%;
+    border-bottom: 1px solid rgba(26, 23, 23, 0.3);
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding:2%;
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 5%;
+}
+
+.login_area > form > span.lock{
+    position: relative;
+    top:-72px;
+    float: right;
+    margin-right: 5%;
+    font-size: 16px;
+    color: rgb(255, 114,0);
+}
+
+
+.submit{
+    background-color: rgb(255, 114,0);
+    color: #fff;
+    margin-top: 5%;
+}
+
+.radio > span{
+    position: relative;
+    top:-2px;
+    left:10px;
+    font-size: 13px;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.log_platform{
+    width: 20%;
+    margin: 2% 40%;
+}
+
+.log_platform > .row > .col-12 > i{
+    border: 1px solid#fff;
+    background-color: #fff;
+    color: rgb(6,56,82);
+    padding: 12px 15px;
+    border-radius: 100%;
+    font-size: 22px;
+}
+
+.login_area > form > span.forgotPw > a{
+    text-decoration: none;
+   
+}
+
+
+.login_area > form > .spans> span.forgotPw{
+    font-size: 12px;
+    margin-right: 0%;
+    margin-top: -7px;
+   
+}
+
+
+
+
+
+
+@media(max-width:523px) and (min-width:0px){
+/*Login section*/
+
+.login{
+    border:1px solid #fff;
+    height: 638px;
+   background-color: #fff;
+   overflow: hidden;
+}
+    
+
+.login >  .login_area {
+    border:1px solid  rgb(6,56,82);
+    width: 88%;
+    margin: 0% 6%;
+    height: 530px;
+    transform: translateY(-100px);
+    background-color: rgb(6,56,82);
+    clear: both;
+}
+
+.log_img  > img{
+    width: 50%;
+    margin: -15% 25% 10% 25%;
+    color: #fff;
+}
+
+
+.log_img > h6{
+    position: relative;
+    top:-117px;
+    float: right;
+    right:106px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: rgb(255, 114,0);
+}
+
+
+
+.login_area > h4{
+    font-size: 28px;
+    color:  #fff;
+    margin-top: 5%;
+    margin-left: 7.5%;
+    width: 40%;
+    padding-bottom: 1%;
+    border-bottom: 2px solid rgba(172, 178, 182, 0.733);
+}
+
+
+.login_area > form{
+    width: 85%;
+    margin: 8% 7.5%;
+}
+
+.login_area > form > label{
+    font-weight: bolder;
+    margin-top: 2%;
+    font-size: 14px;
+}
+
+.login_area > form > input{
+    width: 100%;
+    border-bottom: 1px solid rgba(26, 23, 23, 0.3);
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding: 4% 5% 4% 5%;
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 2%;
+}
+
+.login_area > form > span.lock{
+    position: relative;
+    top:-42px;
+    float: right;
+    margin-right: 5%;
+    font-size: 16px;
+    color: rgb(255, 114,0);
+}
+
+
+.submit{
+    background-color: rgb(255, 114,0);
+    color: #fff;
+    margin-top: 5%;
+}
+
+.radio > span{
+    position: relative;
+    top:-2px;
+    left:10px;
+    font-size: 13px;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.log_platform{
+    width: 20%;
+    margin: 2% 40%;
+}
+
+.log_platform > .row > .col-12 > i{
+    border: 1px solid#fff;
+    background-color: #fff;
+    color: rgb(6,56,82);
+    padding: 12px 15px;
+    border-radius: 100%;
+    font-size: 22px;
+}
+
+.login_area > form > span.forgotPw > a{
+    text-decoration: none;
+   
+}
+
+
+.login_area > form > .spans> span.forgotPw{
+    font-size: 12px;
+    margin-right: 0%;
+    margin-top: -7px;
+   
+}
+
+
+.spans{
+    float: right;
+    margin-top: 17%;
+    color: #fff;
+}
+
+}
+
+
+
+@media(max-width:765px) and (min-width:524px){
+    .login{
+        border:1px solid #fff;
+        height: 900px;
+       background-color: #fff;
+       overflow: hidden;
+    }
+        
+    
+    .login >  .login_area {
+        border:1px solid  rgb(6,56,82);
+        width: 88%;
+        margin: 0% 6%;
+        height: 580px;
+        transform: translateY(-92px);
+        background-color: rgb(6,56,82);
+        clear: both;
+    }
+    
+    .log_img  > a > img{
+        width: 50%;
+        margin: -15% 25% 4% ;
+        color: #fff;
+    }
+    
+    .log_img > h6{
+        position: relative;
+        top:-117px;
+        float: right;
+        right:106px;
+        font-size: 18px;
+        font-weight: bolder;
+        color: rgb(255, 114,0);
+    }
+    
+    
+    
+    
+    
+    .login_area > h4{
+        font-size: 28px;
+        color: #fff;
+        margin-top: 5%;
+        margin-left: 7.5%;
+        width: 27%;
+        padding-bottom: 1%;
+        border-bottom: 2px solid rgba(172, 178, 182, 0.733);
+    }
+    
+    
+    .login_area > form{
+        width: 85%;
+        margin: 8% 7.5%;
+    }
+    
+    .login_area > form > label{
+        font-weight: bolder;
+        margin-top: 2%;
+        font-size: 14px;
+    }
+    
+    .login_area > form > input{
+        width: 100%;
+        border-bottom: 1px solid rgba(26, 23, 23, 0.3);
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        padding: 5% 5% 5% 5%;
+        outline: none;
+        font-size: 15px;
+        margin-bottom: 5%;
+    }
+    
+    .login_area > form > span.lock{
+        position: relative;
+        top:-62px;
+        float: right;
+        margin-right: 5%;
+        font-size: 16px;
+        color: rgb(255, 114,0);
+    }
+    
+    
+    .log_platform{
+        width: 20%;
+        margin: 2% 40%;
+    }
+    
+    .log_platform > .row > .col-12 > i{
+        border: 1px solid #fff;
+        background-color: #fff;
+        color: rgb(6,56,82);
+        padding: 12px 15px;
+        border-radius: 100%;
+        font-size: 22px;
+    }
+    
+    .login_area > form > span.forgotPw > a{
+        text-decoration: none;
+       
+    }
+    
+    .login_area > form >  a{
+           width: 100%;
+           position: relative;
+           padding: 3% 40%;
+           border: none;
+           font-weight: bolder;
+           background-color: rgb(255, 114,0);
+           color: #fff;
+           margin-bottom: 2%;
+           text-decoration: none;
+    }
+    
+    .login_area > form > .spans> span.forgotPw{
+        font-size: 12px;
+        margin-right: 0%;
+        margin-top: -7px;
+        color: #fff;
+       
+    }
+    
+    .forgotPw > a, .signUp > a {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+
+
+
+
+
+@media(max-width:990px) and (min-width:765px){
+    
+    .login{
+        border:1px solid #fff;
+        height:1200px;
+       background-color: #fff;
+       overflow: hidden;
+    }
+        
+    
+    .login >  .login_area {
+        border:1px solid  rgb(6,56,82);
+        width: 80%;
+        margin: 0% 10%;
+        height: 680px;
+        transform: translateY(-92px);
+        background-color: rgb(6,56,82);
+        clear: both;
+    }
+    
+    .log_img  >a > img{
+        width: 30%;
+        margin: -9% 35% 5%;
+        color: #fff;
+    }
+    
+    
+    
+    .login_area > h4{
+        font-size: 28px;
+        color: #fff;
+        margin-top: 5%;
+        margin-left: 7.5%;
+        width: 27%;
+        padding-bottom: 1%;
+        border-bottom: 2px solid rgba(172, 178, 182, 0.733);
+    }
+    
+    
+    .login_area > form{
+        width: 85%;
+        margin: 8% 7.5%;
+    }
+    
+    .login_area > form > label{
+        font-weight: bolder;
+        margin-top: 2%;
+        font-size: 14px;
+    }
+    
+    .login_area > form > input{
+        width: 100%;
+        border-bottom: 1px solid rgba(26, 23, 23, 0.3);
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        padding:2%;
+        outline: none;
+        font-size: 15px;
+        margin-bottom: 5%;
+    }
+    
+    .login_area > form > span.lock{
+        position: relative;
+        top:-52px;
+        float: right;
+        margin-right: 5%;
+        font-size: 16px;
+        color: rgb(255, 114,0);
+    }
+    
+    
+    .log_platform{
+        width: 20%;
+        margin: 2% 40%;
+    }
+    
+    .log_platform > .row > .col-12 > i{
+        border: 1px solid #fff;
+        background-color: #fff;
+        color: rgb(6,56,82);
+        padding: 12px 15px;
+        border-radius: 100%;
+        font-size: 22px;
+    }
+    
+    .login_area > form > span.forgotPw > a{
+        text-decoration: none;
+       
+    }
+    
+    .submit{
+        background-color: rgb(255, 114,0);
+        color: #fff;
+    }
+    
+    .login_area > form > .spans> .forgotPw{
+        font-size: 12px;
+        margin-right: 0%;
+        color: #fff;
+       
+    }
+    
+    .forgotPw > a{
+        text-decoration: none;
+        color: #fff;
+    }
+    }
+    
+    
+    
+    @media(max-width:1200px) and (min-width:991px){
+        .login{
+            border:1px solid #fff;
+            height: 1880px;
+           background-color: #fff;
+           overflow: hidden;
+        }
+            
+        
+        .login >  .login_area {
+            border:1px solid  rgb(6,56,82);
+            width: 88%;
+            margin: 0% 6%;
+            height: 780px;
+            transform: translateY(-92px);
+            background-color: rgb(6,56,82);
+            clear: both;
+        }
+        
+        .log_img  > a > img{
+            width: 30%;
+            margin: -7% 35% 4% ;
+            color: #fff;
+        }
+        
+        .log_img > h6{
+            position: relative;
+            top:-117px;
+            float: right;
+            right:106px;
+            font-size: 18px;
+            font-weight: bolder;
+            color: rgb(255, 114,0);
+        }
+        
+        
+        
+        
+        
+        .login_area > h4{
+            font-size: 28px;
+            color: #fff;
+            margin-top: 5%;
+            margin-left: 7.5%;
+            width: 27%;
+            padding-bottom: 1%;
+            border-bottom: 2px solid rgba(172, 178, 182, 0.733);
+        }
+        
+        
+        .login_area > form{
+            width: 85%;
+            margin: 8% 7.5%;
+        }
+        
+        .login_area > form > label{
+            font-weight: bolder;
+            margin-top: 2%;
+            font-size: 14px;
+        }
+        
+        .login_area > form > input{
+            width: 100%;
+            border-bottom: 1px solid rgba(26, 23, 23, 0.3);
+            border-left: none;
+            border-right: none;
+            border-top: none;
+            padding: 2;
+            outline: none;
+            font-size: 15px;
+            margin-bottom: 5%;
+        }
+        
+        .login_area > form > span.lock{
+            position: relative;
+            top:-76px;
+            float: right;
+            margin-right: 5%;
+            font-size: 16px;
+            color: rgb(255, 114,0);
+        }
+        
+        
+        .log_platform{
+            width: 20%;
+            margin: 2% 40%;
+        }
+        
+        .log_platform > .row > .col-12 > i{
+            border: 1px solid #fff;
+            background-color: #fff;
+            color: rgb(6,56,82);
+            padding: 12px 15px;
+            border-radius: 100%;
+            font-size: 22px;
+        }
+        
+        .login_area > form > span.forgotPw > a{
+            text-decoration: none;
+           
+        }
+        
+        .login_area > form >  a{
+               width: 100%;
+               position: relative;
+               padding: 3% 40%;
+               border: none;
+               font-weight: bolder;
+               background-color: rgb(255, 114,0);
+               color: #fff;
+               margin-bottom: 2%;
+               text-decoration: none;
+        }
+        
+        .login_area > form > .spans> span.forgotPw{
+            font-size: 12px;
+            margin-right: 0%;
+            margin-top: -7px;
+            color: #fff;
+           
+        }
+        
+        .forgotPw > a, .signUp > a {
+            text-decoration: none;
+            color: #fff;
+        }
+    
+    }
+    
+    

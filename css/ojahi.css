@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+}
+/*universal*/
+
+.red{
+    border:1px solid red;
+    height:200px
+}
+.green{
+    border:1px solid green;
+    height:200px
+}
+.blue{
+    border:1px solid blue;
+    height:200px
+}
+
+.ojahi_red{
+    color:rgb(255, 114,0);
+}
+
+.ojahi_dark{
+    color: rgb(6,56,82);
+}
+body{
+    width: 414px;
+    margin: auto;
+
+}
+@media(max-width:414px){
+    
+    body{
+        width: 100%;
+        margin: auto;
+    }
+
+}
+
+@media(min-width:414px){
+    
+    body{
+        width: 100%;
+        margin: auto;
+    }
+
+}
+
+
+
+
+
+.ojahi{
+    height: 700px;
+}
+
+.ojahi_img > img{
+    width: 100%;
+}
+
+.ojahi_img > h6{
+    position: relative;
+    top:-137px;
+    left: 160px;
+    font-size: 23px;
+    color: rgb(255, 114,0);
+    width: 30%;
+}
+
+.main_area{
+    margin-top: -20%;
+}
+
+.main_area > h4{
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgb(6,56,82);
+}
+
+.main_area > a{
+    text-decoration: none;
+}
+
+.main_area > a > button{
+    border:1px solid rgb(255, 114,0);
+   width: 100%;
+   padding: 3%;
+   font-size: 18px;
+   background-color: rgb(255, 114,0);
+   color: #fff;
+   font-weight: bolder;;
+   margin-bottom: 5%;
+}
+
+.main_area > a > button > i{
+    position: relative;
+    left:-40px;
+    color: #fff
+    
+}
+
+
+
+
+
+
+.spans> span.forgotPw{
+    font-size: 12px;
+    margin-right: 0%;
+    margin-top: -7px;
+   
+}
+
+ .spans > span.signUp{
+    font-size: 12px;
+    margin-right: 0%;
+    float: right;
+    margin-top: 5px;
+}
+
+.spans{
+    color: rgb(6,56,82);
+    float: right;
+}
+.forgotPw > a, .signUp > a {
+    text-decoration: none;
+    color: rgb(6,56,82);
+}
